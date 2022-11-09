@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+    align-items: center;
+  }
+  .nav ul {
+      list-style: none; 
+      position: relative; 
+      text-align: center;
+      border-top: 2px solid #ccc;
+      border-bottom: 2px solid #ccc;
+      text-align: center;
+  }
+  .nav ul li {
+      display: inline-block; 
+      text-align: center;
+  }
+  .nav ul li a {
+      color: #ccc;
+      display: block;
+      padding: 8px 12px;
+      text-decoration: none;
+      text-transform: uppercase;
+      text-align: center;
+  }
+  .nav ul li a:hover {
+      color: rgb(20, 15, 15);
+      text-align: center;
+  }
+  .sliding-line {
+      height: 2px; 
+      background: #8D04CA; 
+      position: absolute; 
+      bottom: -2px; 
+      left: 0;
+      text-align: center;
+  }
+  .sliding-menu {
+      text-align: center;
+  }
+.jkl:hover {
+    color: black;
+    text-align: center;
+}
+@media (max-width: 400px) {
+    .nav ul li a {
+        width: 100vw;
+        text-align: center;
+        position: relative;
+        left: -50px;
+    }
+}

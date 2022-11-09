@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+section {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+section h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 5em;
+    padding: 10px;
+}
+section:nth-child(1){
+    
+}
+.rsm {
+    border-radius: 50%;
+    position: relative;
+    bottom: 100px;
+    
+}
+.yoz {
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+}
+.ciz {
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+
+
+
+
+
+
+
+
